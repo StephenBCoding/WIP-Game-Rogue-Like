@@ -1,0 +1,30 @@
+if newx is positive
+	if newy is positive
+		if diff is positive
+			Move Up
+		if diff is negative
+			Move Left
+		if diff is 0
+			Move Left
+	if newy is negative
+		if diff is greater than 2*x
+			Move Left
+		if diff is lesser than 2*x
+			Move Down
+		if diff is equal to 2*x
+			Move Left
+if newx is negative
+	if newy is positive
+		if diff is greater than 2*x
+			Move Right
+		if diff is lesser than 2*x
+			Move Up
+		if diff is equal to 2*x 
+			Move Right
+	if newy is negative
+		if diff is positive
+			Move Right
+		if diff is negative
+			Move Down
+		if diff is 0 
+			Move Right
